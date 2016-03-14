@@ -1,0 +1,128 @@
+body {
+	width: 1260px;
+	height: auto;
+	background-color: #F8F8F8;
+	font-family: 'Josefin Sans', verdana, sans-serif;
+	margin: auto;
+}
+nav {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	
+	display: inline-flex;
+	justify-content: center;
+}
+header  {
+	width: 80%;
+	font-size: 1.2em;
+}
+section {
+	width: 1260px;
+	height: auto;
+}
+footer {
+	width: 1260px;
+	height: 150px;
+	padding-top: 30px;
+	background-color: #FFCC00;
+	font-color: white;
+	text-align: center;
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.hola {
+
+}
+.general {
+	width: 1260px;
+	height: auto;
+	text-align: center;
+
+	display: inline-flex;
+	flex-direction:column;
+	justify-content: center;
+}
+.column {
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+.formu {
+	width: 100%;
+	height: auto;
+}
+.barra {
+	width: 300px;
+}
+.rrss {
+	width: 1260px;
+	height: auto;
+	text-align: center;
+	display: space-arround;
+	flex-direction:column;
+	justify-content: center;
+}
+.fila {
+	display: inline-flex;
+	flex-direction:column;
+}
+.cajasoft {
+	width: 1260px;
+	height: auto;
+	max-width: 1260px;
+
+	justify-content: center;
+	flex-direction: column;
+}
+.softwares {
+	width: 1260px;
+	height: auto;
+
+	display: inline-flex;
+	justify-content: center;
+}
+.softwares:hover {
+	animation-name:softwares;
+	animation-duration: 1s;
+	animatios-delay: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes softwares {
+    0% {
+    	transform: scale(1);
+}
+	50% {
+		transform: scale(1.1);
+}
+	100% {
+    	transform: scale(1);
+}
+}
+.cajap1 {
+	width:300px;
+	height: auto;
+	text-align: center;
+	justify-content: center;
+	flex-direction: row;
+	vertical-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
